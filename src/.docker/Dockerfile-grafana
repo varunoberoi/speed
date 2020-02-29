@@ -1,5 +1,5 @@
-FROM grafana/grafana:4.3.2
-
+FROM grafana/grafana:5.4.3
+USER root
 RUN apt-get update
 RUN apt-get install -y curl gettext-base
 RUN rm -rf /var/lib/apt/lists/*
