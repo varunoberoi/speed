@@ -55,4 +55,4 @@ def loop(sleep):
 
 
 while True:
-    loop(sleep=60 * 60 * 1)  # every hour
+    loop(sleep=30 * 60 * 1)  # every hour
