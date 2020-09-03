@@ -1,7 +1,4 @@
-FROM python:3.6
-
-RUN apt-get update
-RUN apt-get install -y python-setuptools netcat
+FROM python:3.6-alpine
 
 WORKDIR /code/src
 COPY ./check .
